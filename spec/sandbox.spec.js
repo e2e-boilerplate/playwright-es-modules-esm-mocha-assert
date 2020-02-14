@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer";
+import { chromium } from "playwright";
 import { strictEqual } from "assert";
 
 let page;
@@ -7,13 +7,16 @@ let browser;
 describe("google search", () => {
   before(async () => {
     browser = process.env.GITHUB_ACTIONS
-      ? await puppeteer.launch()
-      : await puppeteer.launch({ headless: false });
+      ? await chromium.launch()
+      : await chromium.launch({ headless: false });
 
-    page = await browser.newPage();
+    const context = await browser.newContext();
+    page = await context.newPage();
 
     await page
-      .goto("https://e2e-boilerplates.github.io/sandbox/", { waitUntil: "networkidle0" })
+      .goto("https://e2e-boilerplates.github.io/sandbox/", {
+        waitUntil: "networkidle0"
+      })
       .catch(() => {});
   });
 
