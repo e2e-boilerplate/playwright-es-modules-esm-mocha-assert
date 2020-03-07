@@ -22,16 +22,16 @@
   },
   "keywords": [
     "assert",
-    "es modules",
+    "es",
     "esm",
     "mocha",
     "playwright"
   ],
   "license": "MIT",
-  "name": "playwright-es6-modules-esm-mocha-assert",
+  "name": "playwright-es-modules-esm-mocha-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/playwright-es6-modules-esm-mocha-assert.git"
+    "url": "git+https://github.com/e2e-boilerplates/playwright-es-modules-esm-mocha-assert.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
