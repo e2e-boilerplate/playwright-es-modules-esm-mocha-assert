@@ -23,7 +23,6 @@
   "keywords": [
     "assert",
     "es modules",
-    "es6",
     "esm",
     "mocha",
     "playwright"
