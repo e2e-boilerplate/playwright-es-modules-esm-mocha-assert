@@ -1,9 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-assert/issues"
   },
-  "description": "Playwright end-to-end test automation boilerplate. Using Using ES Modules, esm, Mocha and Assert.",
+  "description": "Playwright end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Assert.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
@@ -26,12 +26,7 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
     "esm",
-    "example",
-    "integration test",
     "mocha",
     "playwright"
   ],
