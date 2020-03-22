@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-assert/issues"
   },
@@ -26,7 +26,12 @@
   },
   "keywords": [
     "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
     "esm",
+    "example",
+    "integration test",
     "mocha",
     "playwright"
   ],
