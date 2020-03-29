@@ -2,7 +2,7 @@ name: playwright-es-modules-esm-mocha-assert
 "on":
   push: null
   schedule:
-    - cron: 5 0 1-31/2 * *
+    - cron: 0 0 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: INSTALLING_LINUX_PACKAGES
+      - name: "install:linux"
         run: >
           sudo apt-get update
 
