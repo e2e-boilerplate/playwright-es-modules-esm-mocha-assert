@@ -23,7 +23,7 @@
   "homepage": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-assert#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
@@ -38,6 +38,11 @@
     "playwright"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "name": "playwright-es-modules-esm-mocha-assert",
   "repository": {
     "type": "git",
