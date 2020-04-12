@@ -2,7 +2,7 @@ name: playwright-es-modules-esm-mocha-assert
 'on':
   push: null
   schedule:
-    - cron: 40 8 1-31/2 * *
+    - cron: 10 0 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
