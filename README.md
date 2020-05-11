@@ -2,7 +2,7 @@
     
 # Playwright Boilerplate
     
-Playwright end-to-end test automation boilerplate, Using ES Modules, esm, Mocha and Assert.
+Playwright end-to-end test automation boilerplate, Using [ES Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), [esm](https://www.npmjs.com/package/esmjs), [Mocha](https://mochajs.org) and Assert.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/playwright-es-modules-esm-mocha-assert.git
