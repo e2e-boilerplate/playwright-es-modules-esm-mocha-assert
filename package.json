@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-assert/issues"
   },
   "dependencies": {
-    "chromedriver": "81.0.0",
+    "chromedriver": "83.0.0",
     "esm": "3.2.25",
     "mocha": "7.1.2",
     "playwright": "1.0.2"
@@ -43,6 +43,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,json,md}": [
+      "eslint --fix",
       "prettier --write"
     ]
   },
