@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-assert/issues"
   },
   "dependencies": {
-    "chromedriver": "87.0.5",
+    "chromedriver": "87.0.7",
     "esm": "3.2.25",
     "mocha": "8.2.1",
     "playwright": "1.7.1"
